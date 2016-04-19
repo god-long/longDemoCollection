@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"SecondTab";
+    self.title = @"demo集锦";
     self.automaticallyAdjustsScrollViewInsets = NO;
     
     [self getViewModel];

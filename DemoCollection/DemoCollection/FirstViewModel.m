@@ -62,7 +62,7 @@
     NSArray *secondArray = @[
                              @{
                                  kConfigTitle : @"Second",
-                                 kConfigPushVC : @"ddd"
+                                 kConfigPushVC : @"nil"
                                  },
                              
                              ];
@@ -71,7 +71,7 @@
     NSArray *thirdArray = @[
                             @{
                                 kConfigTitle : @"Third",
-                                kConfigPushVC : @"ddd"
+                                kConfigPushVC : @"nil"
                                 },
                             
                             ];
