@@ -14,17 +14,17 @@
  *  配置文件用的Key
  */
 
-#define kConfigTitle                     @"title"
+#define kConfigTitle                     @"kConfigTitle"
 
-#define kConfigImage                     @"image"
+#define kConfigImage                     @"kConfigImage"
 
-#define kConfigSelector                  @"selector"
+#define kConfigSelector                  @"kConfigSelector"
 
-#define kConfigPushVC                    @"viewController"
+#define kConfigPushVC                    @"kConfigPushVC"
 
-#define kConfigCellHeight                @"cellHeight"
+#define kConfigCellHeight                @"kConfigCellHeight"
 
-
+#define kConfigContent                   @"kConfigContent"
 
 
 #endif /* MacrosHeaders_h */

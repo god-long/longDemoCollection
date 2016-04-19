@@ -10,4 +10,16 @@
 
 @interface ContentTableViewCell : UITableViewCell
 
++ (instancetype)contentTableViewCellWith:(UITableView *)tableView;
+
+
+/**
+ *  @author god~long, 16-04-19 16:04:15
+ *
+ *  配置contentCell
+ *
+ *  @param dic 配置数据
+ */
+- (void)configContentCellWith:(NSDictionary *)dic;
+
 @end
