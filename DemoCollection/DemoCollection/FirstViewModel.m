@@ -52,8 +52,8 @@
                                 },
                             
                             @{
-                                kConfigTitle : @"iOS7系统二维码扫描(设置扫描区域、中空区域)",
-                                kConfigPushVC : @"ddd"
+                                kConfigTitle : @"iOS7系统二维码扫描(设置扫描区域、中空区域)(需要真机)",
+                                kConfigPushVC : @"ScanCodeVC"
                                 },
                             @{
                                 kConfigTitle : @"Xib中内容优先级布局",

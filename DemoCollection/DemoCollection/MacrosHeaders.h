@@ -10,6 +10,12 @@
 #define MacrosHeaders_h
 
 
+#define kScreenWidth    [UIScreen mainScreen].bounds.size.width
+
+#define kScreenHeight   [UIScreen mainScreen].bounds.size.height
+
+
+
 /**
  *  配置文件用的Key
  */

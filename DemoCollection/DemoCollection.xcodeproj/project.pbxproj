@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		621AE1781CC7811700F13151 /* ScanCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 621AE1761CC7811700F13151 /* ScanCodeVC.m */; };
+		621AE1791CC7811700F13151 /* ScanCodeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621AE1771CC7811700F13151 /* ScanCodeVC.xib */; };
 		628CC90F1CC0880C00FBE461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 628CC90E1CC0880C00FBE461 /* main.m */; };
 		628CC9121CC0880C00FBE461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 628CC9111CC0880C00FBE461 /* AppDelegate.m */; };
 		628CC91A1CC0880C00FBE461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628CC9191CC0880C00FBE461 /* Assets.xcassets */; };
@@ -28,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		621AE1751CC7811700F13151 /* ScanCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanCodeVC.h; sourceTree = "<group>"; };
+		621AE1761CC7811700F13151 /* ScanCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanCodeVC.m; sourceTree = "<group>"; };
+		621AE1771CC7811700F13151 /* ScanCodeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanCodeVC.xib; sourceTree = "<group>"; };
 		628CC90A1CC0880C00FBE461 /* DemoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		628CC90E1CC0880C00FBE461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		628CC9101CC0880C00FBE461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -148,6 +153,9 @@
 				62B76A031CC6259B0033BC24 /* T1TempTableViewVC.h */,
 				62B76A041CC6259B0033BC24 /* T1TempTableViewVC.m */,
 				62B76A051CC6259B0033BC24 /* T1TempTableViewVC.xib */,
+				621AE1751CC7811700F13151 /* ScanCodeVC.h */,
+				621AE1761CC7811700F13151 /* ScanCodeVC.m */,
+				621AE1771CC7811700F13151 /* ScanCodeVC.xib */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 				628CC9281CC08C8C00FBE461 /* FirstVC.xib in Resources */,
 				62B76A111CC6259B0033BC24 /* T1TempTableViewVC.xib in Resources */,
 				628CC93E1CC0943900FBE461 /* Media.xcassets in Resources */,
+				621AE1791CC7811700F13151 /* ScanCodeVC.xib in Resources */,
 				628CC91A1CC0880C00FBE461 /* Assets.xcassets in Resources */,
 				62B76A151CC6259B0033BC24 /* TempTableViewCell.xib in Resources */,
 			);
@@ -248,6 +257,7 @@
 				62B76A0D1CC6259B0033BC24 /* FirstSectionViewModel.m in Sources */,
 				62B76A101CC6259B0033BC24 /* T1TempTableViewVC.m in Sources */,
 				62B76A121CC6259B0033BC24 /* ContentTableViewCell.m in Sources */,
+				621AE1781CC7811700F13151 /* ScanCodeVC.m in Sources */,
 				628CC90F1CC0880C00FBE461 /* main.m in Sources */,
 				628CC92B1CC08DDF00FBE461 /* FirstViewModel.m in Sources */,
 			);
