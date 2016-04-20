@@ -204,6 +204,7 @@
 				TargetAttributes = {
 					628CC9091CC0880C00FBE461 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9BW9888484;
 					};
 				};
 			};
@@ -361,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoCollection/PrefixHeader.pch";
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -373,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoCollection/PrefixHeader.pch";
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
