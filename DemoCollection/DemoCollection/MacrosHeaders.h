@@ -33,4 +33,14 @@
 #define kConfigContent                   @"kConfigContent"
 
 
+/**
+ *  @author god~long, 16-04-28 16:04:18
+ *
+ *  颜色
+ */
+
+#define RandomColor   [UIColor colorWithRed:arc4random()%250/250.0 green:arc4random()%250/250.0 blue:arc4random()%250/250.0 alpha:1.0f]
+
+
+
 #endif /* MacrosHeaders_h */

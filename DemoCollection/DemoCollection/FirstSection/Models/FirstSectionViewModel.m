@@ -10,7 +10,7 @@
 
 @implementation FirstSectionViewModel
 
-#pragma mark - Set
+#pragma mark - Set && Get
 
 - (NSMutableArray *)contentPriorityArray {
     if (!_contentPriorityArray) {
@@ -19,7 +19,17 @@
     return _contentPriorityArray;
 }
 
-
+- (NSMutableArray *)customFlowLayoutArray {
+    if (!_customFlowLayoutArray) {
+        self.customFlowLayoutArray = [NSMutableArray arrayWithCapacity:0];
+        for (NSInteger i = 0; i < 20; i++) {
+            [_customFlowLayoutArray addObject:@{
+                                                kConfigImage : [NSString stringWithFormat:@"one_piece_%ld",(long)i % 9]
+                                                }];
+        }
+    }
+    return _customFlowLayoutArray;
+}
 
 
 

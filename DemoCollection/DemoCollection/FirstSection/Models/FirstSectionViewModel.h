@@ -10,10 +10,9 @@
 
 @interface FirstSectionViewModel : NSObject
 
-@property (nonatomic, strong) NSMutableArray *contentPriorityArray;
+@property (nonatomic, strong) NSMutableArray *contentPriorityArray;/**< 显示优先级数据源 */
 
-
-
+@property (nonatomic, strong) NSMutableArray *customFlowLayoutArray;/**< 自定义layout图片数据源 */
 
 
 - (void)configContentPriorityArray;
