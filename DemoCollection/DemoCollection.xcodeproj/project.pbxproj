@@ -276,7 +276,7 @@
 				TargetAttributes = {
 					628CC9091CC0880C00FBE461 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 9BW9888484;
+						DevelopmentTeam = 6DRCBM39CY;
 					};
 				};
 			};
@@ -456,7 +456,7 @@
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = long.DemoCollection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medbanks.DoctorAssistant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -466,12 +466,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoCollection/PrefixHeader.pch";
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = long.DemoCollection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medbanks.DoctorAssistant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
