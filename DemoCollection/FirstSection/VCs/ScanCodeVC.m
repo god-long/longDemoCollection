@@ -49,7 +49,7 @@
     
     CGRect rect = CGRectMake((kScreenWidth - 250) / 2, (kScreenHeight - 250 - 72)/2, 250, 250);
     AVCaptureVideoPreviewLayer *previewLayer = [AVCaptureVideoPreviewLayer layerWithSession:_captureSession];
-    previewLayer.frame = self.view.bounds;
+    previewLayer.frame = CGRectMake(0, 64, kScreenWidth, kScreenHeight - 64);
     previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
     [self.view.layer addSublayer:previewLayer];
     
@@ -71,12 +71,18 @@
     
     UIImageView *scanAreaImageView = [[UIImageView alloc] initWithFrame:rect];
     scanAreaImageView.image = [UIImage imageNamed:@"scan_code_frame"];
+    scanAreaImageView.layer.cornerRadius = 2;
+    scanAreaImageView.layer.borderColor = [UIColor orangeColor].CGColor;
+    scanAreaImageView.layer.borderWidth = 1;
     [self.view addSubview:scanAreaImageView];
     
     self.sweepLineView = [[UIImageView alloc] initWithFrame:CGRectMake(1, 20, 248, 2)];
     _sweepLineView.image = [UIImage imageNamed:@"scan_code_line"];
+    _sweepLineView.backgroundColor = [UIColor redColor];
     [scanAreaImageView addSubview:_sweepLineView];
 
+    //开始动画
+    [self sweepAnimation];
 }
 
 #pragma mark - System Methods
