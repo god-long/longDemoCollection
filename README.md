@@ -10,3 +10,6 @@ demo集锦
 
 
 * **xib中内容优先级布局** ➡ [博客](http://god-long.github.io/2016/04/19/xib%E4%BD%BF%E7%94%A8%E4%B9%8B%E5%86%85%E5%AE%B9%E4%BC%98%E5%85%88%E7%BA%A7%E5%B8%83%E5%B1%80/) || [简书](http://www.jianshu.com/p/9ab730bedece)
+
+
+* **自定义UICollectionViewFlowLayout** ➡ [博客](http://god-long.github.io/2016/04/29/%E8%87%AA%E5%AE%9A%E4%B9%89UICollectionViewFlowLayout/) || [简书](http://www.jianshu.com/p/e8e9dcc12b37)
