@@ -21,6 +21,9 @@
     //线上正常版本
     [JSPatch startWithAppKey:kJSPatchKey];
     
+    //RSA加密
+    [JSPatch setupRSAPublicKey:@"-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEfqx5IU5s0O8LemLV2kpmNtN6\nOsjGWozaFULmgPG3oW/HMykzTqgO7DwY2D9NBpSJAHkrkBlqFm2t6eIh6pYJmJSe\nr8eCVRu3njIqdDGmKc5kLxKKFeWZCrMCtaF7ll0CG73liDZ+2IrfnH7I0nos3G2R\nZrDC9i8VEqEx9Xy2uwIDAQAB\n-----END PUBLIC KEY-----"];
+    
 #ifdef DEBUG
     //发布开发版本时需要打开
 //    [JSPatch setupDevelopment];

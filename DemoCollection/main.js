@@ -32,7 +32,7 @@ defineClass('JSPatchVC',
             toWebView: function() {
             
             console.log('went')
-            
+            self.view().setBackgroundColor(UIColor.orangeColor());
             }
             
             
