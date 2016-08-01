@@ -79,8 +79,8 @@
     
     NSArray *thirdArray = @[
                             @{
-                                kConfigTitle : @"Third",
-                                kConfigPushVC : @"nil"
+                                kConfigTitle : @"JSPatch(热修复)",
+                                kConfigPushVC : @"JSPatchVC"
                                 },
                             
                             ];

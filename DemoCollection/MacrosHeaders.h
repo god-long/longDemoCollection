@@ -14,6 +14,7 @@
 
 #define kScreenHeight   [UIScreen mainScreen].bounds.size.height
 
+#define kJSPatchKey     @"99c3b3f8a9898f87"
 
 
 /**

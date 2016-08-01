@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "FirstVC.h"
+#import <JSPatch/JSPatch.h>
 
 @interface AppDelegate ()
 
@@ -17,7 +18,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //线上正常版本
+    [JSPatch startWithAppKey:kJSPatchKey];
+    
+#ifdef DEBUG
+    //发布开发版本时需要打开
+//    [JSPatch setupDevelopment];
+#endif
 
+    [JSPatch sync];
+
+    //本地版本
+//    [JSPatch testScriptInBundle];
+    
+     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

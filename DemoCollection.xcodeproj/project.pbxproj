@@ -34,6 +34,12 @@
 		628CC92B1CC08DDF00FBE461 /* FirstViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 628CC92A1CC08DDF00FBE461 /* FirstViewModel.m */; };
 		628CC93E1CC0943900FBE461 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628CC93D1CC0943900FBE461 /* Media.xcassets */; };
 		628CC9411CC094EC00FBE461 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 628CC9401CC094EC00FBE461 /* BaseVC.m */; };
+		62AD87901D4A006200AB65BA /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AD878F1D4A006200AB65BA /* JavaScriptCore.framework */; };
+		62AD87921D4A024300AB65BA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AD87911D4A024300AB65BA /* libz.tbd */; };
+		62AD87971D4A02C400AB65BA /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 62AD87961D4A02C400AB65BA /* main.js */; };
+		62AD879F1D4A116400AB65BA /* JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AD879E1D4A116400AB65BA /* JSPatch.framework */; };
+		62AD87A31D4A13BA00AB65BA /* JSPatchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AD87A11D4A13BA00AB65BA /* JSPatchVC.m */; };
+		62AD87A41D4A13BA00AB65BA /* JSPatchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62AD87A21D4A13BA00AB65BA /* JSPatchVC.xib */; };
 		62B76A0D1CC6259B0033BC24 /* FirstSectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B769FE1CC6259B0033BC24 /* FirstSectionViewModel.m */; };
 		62B76A0E1CC6259B0033BC24 /* ContentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B76A011CC6259B0033BC24 /* ContentVC.m */; };
 		62B76A0F1CC6259B0033BC24 /* ContentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62B76A021CC6259B0033BC24 /* ContentVC.xib */; };
@@ -86,6 +92,13 @@
 		628CC93D1CC0943900FBE461 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		628CC93F1CC094EC00FBE461 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
 		628CC9401CC094EC00FBE461 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		62AD878F1D4A006200AB65BA /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/PrivateFrameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		62AD87911D4A024300AB65BA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		62AD87961D4A02C400AB65BA /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		62AD879E1D4A116400AB65BA /* JSPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatch.framework; sourceTree = "<group>"; };
+		62AD87A01D4A13BA00AB65BA /* JSPatchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatchVC.h; sourceTree = "<group>"; };
+		62AD87A11D4A13BA00AB65BA /* JSPatchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatchVC.m; sourceTree = "<group>"; };
+		62AD87A21D4A13BA00AB65BA /* JSPatchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSPatchVC.xib; sourceTree = "<group>"; };
 		62B769FD1CC6259B0033BC24 /* FirstSectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstSectionViewModel.h; sourceTree = "<group>"; };
 		62B769FE1CC6259B0033BC24 /* FirstSectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstSectionViewModel.m; sourceTree = "<group>"; };
 		62B76A001CC6259B0033BC24 /* ContentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentVC.h; sourceTree = "<group>"; };
@@ -107,6 +120,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62AD879F1D4A116400AB65BA /* JSPatch.framework in Frameworks */,
+				62AD87921D4A024300AB65BA /* libz.tbd in Frameworks */,
+				62AD87901D4A006200AB65BA /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +157,9 @@
 		628CC9011CC0880C00FBE461 = {
 			isa = PBXGroup;
 			children = (
+				62AD879E1D4A116400AB65BA /* JSPatch.framework */,
+				62AD87911D4A024300AB65BA /* libz.tbd */,
+				62AD878F1D4A006200AB65BA /* JavaScriptCore.framework */,
 				628CC90C1CC0880C00FBE461 /* DemoCollection */,
 				628CC90B1CC0880C00FBE461 /* Products */,
 			);
@@ -168,6 +187,7 @@
 				628CC92A1CC08DDF00FBE461 /* FirstViewModel.m */,
 				628CC92C1CC08E8100FBE461 /* PrefixHeader.pch */,
 				628CC92E1CC0905F00FBE461 /* MacrosHeaders.h */,
+				62AD87961D4A02C400AB65BA /* main.js */,
 				623B26A11CD21426009421B7 /* Images */,
 				62B769FB1CC6259B0033BC24 /* FirstSection */,
 				628CC9191CC0880C00FBE461 /* Assets.xcassets */,
@@ -225,6 +245,9 @@
 				623B26971CD1F6DF009421B7 /* CustomFlowLayoutVC.h */,
 				623B26981CD1F6DF009421B7 /* CustomFlowLayoutVC.m */,
 				623B26991CD1F6DF009421B7 /* CustomFlowLayoutVC.xib */,
+				62AD87A01D4A13BA00AB65BA /* JSPatchVC.h */,
+				62AD87A11D4A13BA00AB65BA /* JSPatchVC.m */,
+				62AD87A21D4A13BA00AB65BA /* JSPatchVC.xib */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -276,7 +299,7 @@
 				TargetAttributes = {
 					628CC9091CC0880C00FBE461 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 6DRCBM39CY;
+						DevelopmentTeam = K87P8Z8HGS;
 					};
 				};
 			};
@@ -308,6 +331,7 @@
 				623B26B01CD21426009421B7 /* one_piece_6.JPG in Resources */,
 				623B26AD1CD21426009421B7 /* one_piece_3.JPG in Resources */,
 				623B26B11CD21426009421B7 /* one_piece_7.JPG in Resources */,
+				62AD87A41D4A13BA00AB65BA /* JSPatchVC.xib in Resources */,
 				623B26B31CD21426009421B7 /* one_piece_0.JPG in Resources */,
 				62B76A0F1CC6259B0033BC24 /* ContentVC.xib in Resources */,
 				623B26AB1CD21426009421B7 /* one_piece_1.JPG in Resources */,
@@ -316,6 +340,7 @@
 				628CC9281CC08C8C00FBE461 /* FirstVC.xib in Resources */,
 				62B76A111CC6259B0033BC24 /* T1TempTableViewVC.xib in Resources */,
 				623B26AE1CD21426009421B7 /* one_piece_4.JPG in Resources */,
+				62AD87971D4A02C400AB65BA /* main.js in Resources */,
 				623B26B21CD21426009421B7 /* one_piece_8.JPG in Resources */,
 				623B26A01CD209AA009421B7 /* CustomFlowLayoutCell.xib in Resources */,
 				628CC93E1CC0943900FBE461 /* Media.xcassets in Resources */,
@@ -346,6 +371,7 @@
 				62B76A121CC6259B0033BC24 /* ContentTableViewCell.m in Sources */,
 				621AE1781CC7811700F13151 /* ScanCodeVC.m in Sources */,
 				623B269A1CD1F6DF009421B7 /* CustomFlowLayoutVC.m in Sources */,
+				62AD87A31D4A13BA00AB65BA /* JSPatchVC.m in Sources */,
 				623B269F1CD209AA009421B7 /* CustomFlowLayoutCell.m in Sources */,
 				628CC90F1CC0880C00FBE461 /* main.m in Sources */,
 				628CC92B1CC08DDF00FBE461 /* FirstViewModel.m in Sources */,
@@ -452,6 +478,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoCollection/PrefixHeader.pch";
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -467,6 +498,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoCollection/PrefixHeader.pch";
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
