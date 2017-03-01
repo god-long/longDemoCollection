@@ -22,6 +22,8 @@
 
 @implementation ScanCodeVC
 
+#pragma mark - System Methods
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"扫码";
@@ -85,9 +87,6 @@
     [self sweepAnimation];
 }
 
-#pragma mark - System Methods
-
-
 
 #pragma mark - Privite Methods
 
@@ -117,8 +116,6 @@
     [UIView commitAnimations];
 }
 
-
-
 #pragma mark - Delegate
 
 #pragma mark AVCaptureMetadataOutputObjectsDelegate
@@ -128,8 +125,6 @@
         NSLog(@"%@",[[metadataObjects objectAtIndex:0] stringValue]);
     }
 }
-
-
 
 
 #pragma makr - ReceiveMemoryWarn

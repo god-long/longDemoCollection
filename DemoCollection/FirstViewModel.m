@@ -73,6 +73,11 @@
                                  kConfigTitle : @"自定义UICollectionViewFlowLayout",
                                  kConfigPushVC : @"CustomFlowLayoutVC"
                                  },
+                             
+                             @{
+                                 kConfigTitle : @"3DTouch",
+                                 kConfigPushVC : @"TouchListVC"
+                                 },
 
                              ];
     [self.secondSectionArray addObjectsFromArray:secondArray];

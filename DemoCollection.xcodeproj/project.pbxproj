@@ -25,6 +25,8 @@
 		623B26B11CD21426009421B7 /* one_piece_7.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 623B26A81CD21426009421B7 /* one_piece_7.JPG */; };
 		623B26B21CD21426009421B7 /* one_piece_8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 623B26A91CD21426009421B7 /* one_piece_8.JPG */; };
 		623B26B31CD21426009421B7 /* one_piece_0.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 623B26AA1CD21426009421B7 /* one_piece_0.JPG */; };
+		62573CA31DAC89B5007F995C /* TextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62573CA11DAC89B5007F995C /* TextVC.m */; };
+		62573CA41DAC89B5007F995C /* TextVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62573CA21DAC89B5007F995C /* TextVC.xib */; };
 		628CC90F1CC0880C00FBE461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 628CC90E1CC0880C00FBE461 /* main.m */; };
 		628CC9121CC0880C00FBE461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 628CC9111CC0880C00FBE461 /* AppDelegate.m */; };
 		628CC91A1CC0880C00FBE461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628CC9191CC0880C00FBE461 /* Assets.xcassets */; };
@@ -38,8 +40,6 @@
 		62AD87921D4A024300AB65BA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AD87911D4A024300AB65BA /* libz.tbd */; };
 		62AD87971D4A02C400AB65BA /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 62AD87961D4A02C400AB65BA /* main.js */; };
 		62AD879F1D4A116400AB65BA /* JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AD879E1D4A116400AB65BA /* JSPatch.framework */; };
-		62AD87A31D4A13BA00AB65BA /* JSPatchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AD87A11D4A13BA00AB65BA /* JSPatchVC.m */; };
-		62AD87A41D4A13BA00AB65BA /* JSPatchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62AD87A21D4A13BA00AB65BA /* JSPatchVC.xib */; };
 		62B76A0D1CC6259B0033BC24 /* FirstSectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B769FE1CC6259B0033BC24 /* FirstSectionViewModel.m */; };
 		62B76A0E1CC6259B0033BC24 /* ContentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B76A011CC6259B0033BC24 /* ContentVC.m */; };
 		62B76A0F1CC6259B0033BC24 /* ContentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62B76A021CC6259B0033BC24 /* ContentVC.xib */; };
@@ -49,6 +49,14 @@
 		62B76A131CC6259B0033BC24 /* ContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62B76A091CC6259B0033BC24 /* ContentTableViewCell.xib */; };
 		62B76A141CC6259B0033BC24 /* TempTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B76A0B1CC6259B0033BC24 /* TempTableViewCell.m */; };
 		62B76A151CC6259B0033BC24 /* TempTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62B76A0C1CC6259B0033BC24 /* TempTableViewCell.xib */; };
+		62BB64A31E669DB50021D128 /* JSPatchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BB64A11E669DB50021D128 /* JSPatchVC.m */; };
+		62BB64A41E669DB50021D128 /* JSPatchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62BB64A21E669DB50021D128 /* JSPatchVC.xib */; };
+		62BB64AD1E66A1390021D128 /* TouchListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BB64AB1E66A1390021D128 /* TouchListVC.m */; };
+		62BB64AE1E66A1390021D128 /* TouchListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62BB64AC1E66A1390021D128 /* TouchListVC.xib */; };
+		62BB64B11E66A3740021D128 /* TouchListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BB64B01E66A3740021D128 /* TouchListViewModel.m */; };
+		62BB64B41E66A3AE0021D128 /* TouchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BB64B31E66A3AE0021D128 /* TouchModel.m */; };
+		62BB64B81E66A8CC0021D128 /* TouchDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BB64B61E66A8CC0021D128 /* TouchDetailVC.m */; };
+		62BB64B91E66A8CC0021D128 /* TouchDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62BB64B71E66A8CC0021D128 /* TouchDetailVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +83,9 @@
 		623B26A81CD21426009421B7 /* one_piece_7.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = one_piece_7.JPG; sourceTree = "<group>"; };
 		623B26A91CD21426009421B7 /* one_piece_8.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = one_piece_8.JPG; sourceTree = "<group>"; };
 		623B26AA1CD21426009421B7 /* one_piece_0.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = one_piece_0.JPG; sourceTree = "<group>"; };
+		62573CA01DAC89B5007F995C /* TextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextVC.h; sourceTree = "<group>"; };
+		62573CA11DAC89B5007F995C /* TextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextVC.m; sourceTree = "<group>"; };
+		62573CA21DAC89B5007F995C /* TextVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextVC.xib; sourceTree = "<group>"; };
 		628CC90A1CC0880C00FBE461 /* DemoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		628CC90E1CC0880C00FBE461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		628CC9101CC0880C00FBE461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,9 +107,6 @@
 		62AD87911D4A024300AB65BA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		62AD87961D4A02C400AB65BA /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		62AD879E1D4A116400AB65BA /* JSPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatch.framework; sourceTree = "<group>"; };
-		62AD87A01D4A13BA00AB65BA /* JSPatchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatchVC.h; sourceTree = "<group>"; };
-		62AD87A11D4A13BA00AB65BA /* JSPatchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatchVC.m; sourceTree = "<group>"; };
-		62AD87A21D4A13BA00AB65BA /* JSPatchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSPatchVC.xib; sourceTree = "<group>"; };
 		62B769FD1CC6259B0033BC24 /* FirstSectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstSectionViewModel.h; sourceTree = "<group>"; };
 		62B769FE1CC6259B0033BC24 /* FirstSectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstSectionViewModel.m; sourceTree = "<group>"; };
 		62B76A001CC6259B0033BC24 /* ContentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentVC.h; sourceTree = "<group>"; };
@@ -113,6 +121,19 @@
 		62B76A0A1CC6259B0033BC24 /* TempTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempTableViewCell.h; sourceTree = "<group>"; };
 		62B76A0B1CC6259B0033BC24 /* TempTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempTableViewCell.m; sourceTree = "<group>"; };
 		62B76A0C1CC6259B0033BC24 /* TempTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempTableViewCell.xib; sourceTree = "<group>"; };
+		62BB64A01E669DB50021D128 /* JSPatchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatchVC.h; sourceTree = "<group>"; };
+		62BB64A11E669DB50021D128 /* JSPatchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatchVC.m; sourceTree = "<group>"; };
+		62BB64A21E669DB50021D128 /* JSPatchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSPatchVC.xib; sourceTree = "<group>"; };
+		62BB64AA1E66A1390021D128 /* TouchListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchListVC.h; sourceTree = "<group>"; };
+		62BB64AB1E66A1390021D128 /* TouchListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchListVC.m; sourceTree = "<group>"; };
+		62BB64AC1E66A1390021D128 /* TouchListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchListVC.xib; sourceTree = "<group>"; };
+		62BB64AF1E66A3740021D128 /* TouchListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchListViewModel.h; sourceTree = "<group>"; };
+		62BB64B01E66A3740021D128 /* TouchListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchListViewModel.m; sourceTree = "<group>"; };
+		62BB64B21E66A3AE0021D128 /* TouchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchModel.h; sourceTree = "<group>"; };
+		62BB64B31E66A3AE0021D128 /* TouchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchModel.m; sourceTree = "<group>"; };
+		62BB64B51E66A8CC0021D128 /* TouchDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchDetailVC.h; sourceTree = "<group>"; };
+		62BB64B61E66A8CC0021D128 /* TouchDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchDetailVC.m; sourceTree = "<group>"; };
+		62BB64B71E66A8CC0021D128 /* TouchDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchDetailVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +197,8 @@
 		628CC90C1CC0880C00FBE461 /* DemoCollection */ = {
 			isa = PBXGroup;
 			children = (
+				62BB649E1E669DB50021D128 /* 3DTouch */,
+				62BB649F1E669DB50021D128 /* JSPatch */,
 				628CC9101CC0880C00FBE461 /* AppDelegate.h */,
 				628CC9111CC0880C00FBE461 /* AppDelegate.m */,
 				628CC93F1CC094EC00FBE461 /* BaseVC.h */,
@@ -245,9 +268,9 @@
 				623B26971CD1F6DF009421B7 /* CustomFlowLayoutVC.h */,
 				623B26981CD1F6DF009421B7 /* CustomFlowLayoutVC.m */,
 				623B26991CD1F6DF009421B7 /* CustomFlowLayoutVC.xib */,
-				62AD87A01D4A13BA00AB65BA /* JSPatchVC.h */,
-				62AD87A11D4A13BA00AB65BA /* JSPatchVC.m */,
-				62AD87A21D4A13BA00AB65BA /* JSPatchVC.xib */,
+				62573CA01DAC89B5007F995C /* TextVC.h */,
+				62573CA11DAC89B5007F995C /* TextVC.m */,
+				62573CA21DAC89B5007F995C /* TextVC.xib */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -266,6 +289,33 @@
 				623B269E1CD209AA009421B7 /* CustomFlowLayoutCell.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		62BB649E1E669DB50021D128 /* 3DTouch */ = {
+			isa = PBXGroup;
+			children = (
+				62BB64AA1E66A1390021D128 /* TouchListVC.h */,
+				62BB64AB1E66A1390021D128 /* TouchListVC.m */,
+				62BB64AC1E66A1390021D128 /* TouchListVC.xib */,
+				62BB64B51E66A8CC0021D128 /* TouchDetailVC.h */,
+				62BB64B61E66A8CC0021D128 /* TouchDetailVC.m */,
+				62BB64B71E66A8CC0021D128 /* TouchDetailVC.xib */,
+				62BB64AF1E66A3740021D128 /* TouchListViewModel.h */,
+				62BB64B01E66A3740021D128 /* TouchListViewModel.m */,
+				62BB64B21E66A3AE0021D128 /* TouchModel.h */,
+				62BB64B31E66A3AE0021D128 /* TouchModel.m */,
+			);
+			path = 3DTouch;
+			sourceTree = "<group>";
+		};
+		62BB649F1E669DB50021D128 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				62BB64A01E669DB50021D128 /* JSPatchVC.h */,
+				62BB64A11E669DB50021D128 /* JSPatchVC.m */,
+				62BB64A21E669DB50021D128 /* JSPatchVC.xib */,
+			);
+			path = JSPatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +349,7 @@
 				TargetAttributes = {
 					628CC9091CC0880C00FBE461 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = K87P8Z8HGS;
+						DevelopmentTeam = 9BW9888484;
 					};
 				};
 			};
@@ -327,22 +377,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				628CC91D1CC0880C00FBE461 /* LaunchScreen.storyboard in Resources */,
+				62573CA41DAC89B5007F995C /* TextVC.xib in Resources */,
 				62B76A131CC6259B0033BC24 /* ContentTableViewCell.xib in Resources */,
 				623B26B01CD21426009421B7 /* one_piece_6.JPG in Resources */,
+				62BB64A41E669DB50021D128 /* JSPatchVC.xib in Resources */,
 				623B26AD1CD21426009421B7 /* one_piece_3.JPG in Resources */,
 				623B26B11CD21426009421B7 /* one_piece_7.JPG in Resources */,
-				62AD87A41D4A13BA00AB65BA /* JSPatchVC.xib in Resources */,
 				623B26B31CD21426009421B7 /* one_piece_0.JPG in Resources */,
 				62B76A0F1CC6259B0033BC24 /* ContentVC.xib in Resources */,
 				623B26AB1CD21426009421B7 /* one_piece_1.JPG in Resources */,
 				623B269B1CD1F6DF009421B7 /* CustomFlowLayoutVC.xib in Resources */,
 				623B26AF1CD21426009421B7 /* one_piece_5.JPG in Resources */,
 				628CC9281CC08C8C00FBE461 /* FirstVC.xib in Resources */,
+				62BB64B91E66A8CC0021D128 /* TouchDetailVC.xib in Resources */,
 				62B76A111CC6259B0033BC24 /* T1TempTableViewVC.xib in Resources */,
 				623B26AE1CD21426009421B7 /* one_piece_4.JPG in Resources */,
 				62AD87971D4A02C400AB65BA /* main.js in Resources */,
 				623B26B21CD21426009421B7 /* one_piece_8.JPG in Resources */,
 				623B26A01CD209AA009421B7 /* CustomFlowLayoutCell.xib in Resources */,
+				62BB64AE1E66A1390021D128 /* TouchListVC.xib in Resources */,
 				628CC93E1CC0943900FBE461 /* Media.xcassets in Resources */,
 				621AE17E1CC78E5B00F13151 /* ScrollViewVC.xib in Resources */,
 				621AE1791CC7811700F13151 /* ScanCodeVC.xib in Resources */,
@@ -363,18 +416,23 @@
 				62B76A141CC6259B0033BC24 /* TempTableViewCell.m in Sources */,
 				628CC9271CC08C8C00FBE461 /* FirstVC.m in Sources */,
 				628CC9121CC0880C00FBE461 /* AppDelegate.m in Sources */,
+				62BB64B81E66A8CC0021D128 /* TouchDetailVC.m in Sources */,
 				621AE17D1CC78E5B00F13151 /* ScrollViewVC.m in Sources */,
 				623B26961CD1F60D009421B7 /* GLCollectionViewFlowLayou.m in Sources */,
 				62B76A0E1CC6259B0033BC24 /* ContentVC.m in Sources */,
 				62B76A0D1CC6259B0033BC24 /* FirstSectionViewModel.m in Sources */,
+				62BB64B11E66A3740021D128 /* TouchListViewModel.m in Sources */,
 				62B76A101CC6259B0033BC24 /* T1TempTableViewVC.m in Sources */,
+				62BB64A31E669DB50021D128 /* JSPatchVC.m in Sources */,
 				62B76A121CC6259B0033BC24 /* ContentTableViewCell.m in Sources */,
 				621AE1781CC7811700F13151 /* ScanCodeVC.m in Sources */,
 				623B269A1CD1F6DF009421B7 /* CustomFlowLayoutVC.m in Sources */,
-				62AD87A31D4A13BA00AB65BA /* JSPatchVC.m in Sources */,
 				623B269F1CD209AA009421B7 /* CustomFlowLayoutCell.m in Sources */,
 				628CC90F1CC0880C00FBE461 /* main.m in Sources */,
+				62573CA31DAC89B5007F995C /* TextVC.m in Sources */,
+				62BB64AD1E66A1390021D128 /* TouchListVC.m in Sources */,
 				628CC92B1CC08DDF00FBE461 /* FirstViewModel.m in Sources */,
+				62BB64B41E66A3AE0021D128 /* TouchModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +536,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9BW9888484;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -485,9 +544,9 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoCollection/PrefixHeader.pch";
 				INFOPLIST_FILE = DemoCollection/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.medbanks.DoctorAssistant;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemoCollection.personal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -498,6 +557,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9BW9888484;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -505,9 +565,9 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoCollection/PrefixHeader.pch";
 				INFOPLIST_FILE = DemoCollection/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.medbanks.DoctorAssistant;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemoCollection.personal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

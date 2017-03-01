@@ -42,8 +42,42 @@
     UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[[FirstVC alloc] init]];
     self.window.rootViewController = navi;
     
+    [self configDynamicQuickActions];
+    
     return YES;
 }
+
+//设置动态的quick actions
+- (void)configDynamicQuickActions {
+
+    UIApplicationShortcutIcon *tempItem1Icon = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeHome];
+    
+    UIApplicationShortcutItem *tempItem1 = [[UIApplicationShortcutItem alloc] initWithType:@"com.resume.third" localizedTitle:@"我是动态的1" localizedSubtitle:@"我是运行程序后才出现的" icon:tempItem1Icon userInfo:nil];
+    
+    UIApplicationShortcutItem *tempItem2 = [[UIApplicationShortcutItem alloc] initWithType:@"com.resume.fourth" localizedTitle:@"我是动态的2"];
+    [UIApplication sharedApplication].shortcutItems = @[tempItem1,tempItem2];
+}
+
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void(^)(BOOL succeeded))completionHandler {
+    
+    //根据设置的type唯一标识，来做具体的事情
+    if ([shortcutItem.type isEqualToString:@"com.demoCollection.first"]) {
+        [self showShortcutAlertWithTitle:shortcutItem.localizedTitle message:shortcutItem.localizedSubtitle];
+    }else if ([shortcutItem.type isEqualToString:@"com.demoCollection.second"]){
+        [self showShortcutAlertWithTitle:shortcutItem.localizedTitle message:[NSString stringWithFormat:@"subtitle:%@\nuserinfo:%@",shortcutItem.localizedSubtitle,[shortcutItem.userInfo objectForKey:@"keyName"]]];
+    }
+    
+    completionHandler(YES);
+}
+
+- (void)showShortcutAlertWithTitle:(NSString *)title message:(NSString *)message {
+    UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    [alertVC addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"%@",action);
+    }]];
+    [self.window.rootViewController presentViewController:alertVC animated:YES completion:nil];
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
