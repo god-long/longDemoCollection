@@ -13,3 +13,7 @@ demo集锦
 
 
 * **自定义UICollectionViewFlowLayout** ➡ [博客](http://god-long.github.io/2016/04/29/%E8%87%AA%E5%AE%9A%E4%B9%89UICollectionViewFlowLayout/) || [简书](http://www.jianshu.com/p/e8e9dcc12b37)
+
+
+* **3D Touch学习** ➡ [博客（暂无）]() || [简书](http://www.jianshu.com/p/bc65bb385634)
+
