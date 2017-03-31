@@ -58,6 +58,7 @@
     [UIApplication sharedApplication].shortcutItems = @[tempItem1,tempItem2];
 }
 
+//点击quick action到应用中响应的入口
 - (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void(^)(BOOL succeeded))completionHandler {
     
     //根据设置的type唯一标识，来做具体的事情

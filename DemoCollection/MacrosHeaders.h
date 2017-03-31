@@ -34,6 +34,9 @@
 #define kConfigContent                   @"kConfigContent"
 
 
+//Today
+#define kTodayName                       @"kTodayName"
+
 /**
  *  @author god~long, 16-04-28 16:04:18
  *

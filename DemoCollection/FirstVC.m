@@ -26,9 +26,6 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     
     [self getViewModel];
-    
-
-    
 }
 
 #pragma mark - System Methods
