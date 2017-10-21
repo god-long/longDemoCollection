@@ -31,7 +31,7 @@
 + (instancetype)tempTableViewCellWith:(UITableView *)tableView indexPath:(NSIndexPath *)indexPath {
     NSString *identifier = @"";//对应xib中设置的identifier
     NSInteger index = 0; //xib中第几个Cell
-    switch (indexPath.row) {
+    switch (indexPath.row % 3) {
         case 0:
             identifier = @"TempTableViewCellFirst";
             index = 0;
@@ -51,6 +51,7 @@
     TempTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     if (!cell) {
         cell = [[[NSBundle mainBundle] loadNibNamed:@"TempTableViewCell" owner:self options:nil] objectAtIndex:index];
+        NSLog(@"create cell index: %ld",index);
     }
     return cell;
 
